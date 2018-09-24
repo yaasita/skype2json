@@ -4,7 +4,7 @@ const fs = require("fs");
 
 (async () => {
   console.log("start");
-  const legacy = loadjson("./out/main2.json");
+  const legacy = loadjson("./out/main.json");
   const current = loadjson("./out/skype.json");
   let messages = legacy.concat(current);
   const target_year = process.argv[2];
