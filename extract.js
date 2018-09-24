@@ -3,7 +3,6 @@
 const fs = require("fs");
 
 (async () => {
-  console.log("start");
   const legacy = loadjson("./out/main.json");
   const current = loadjson("./out/skype.json");
   let messages = legacy.concat(current);
