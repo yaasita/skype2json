@@ -4,7 +4,7 @@ This script exports slack logs as json.
 
 # Install
 
-    yarn install
+    npm install
 
 # Usage
 
