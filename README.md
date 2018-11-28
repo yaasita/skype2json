@@ -11,7 +11,7 @@ This script exports slack logs as json.
 ## 2016 format
 
     # input => C:\Users\username\AppData\Roaming\Skype\username\main.db
-    node legacy.js in/main.db
+    node skype2json_v2016.js in/main.db
 
 ## 2017 format
 
