@@ -2,7 +2,7 @@
 
 const fs = require("fs");
 const path = require('path');
-const common = require("./lib/common.js");
+const common = require("./lib/2016-2017-common.js");
 
 (async () => {
   const infile = process.argv[2];
