@@ -1,14 +1,17 @@
 "use strict";
 
 const fs = require("fs");
-const common = require("./common.js");
+const path = require('path');
+const common = require("./lib/common.js");
 
 (async () => {
+  const infile = process.argv[2];
+  const outfile = "out/" + path.basename(infile).replace(/\.db$/, "") + ".json";
   const messages = await common.get_messages(
-    "in/main.db",
+    infile,
     `
     select from_dispname as name,timestamp as time,body_xml as text,  convo_id as chat from Messages order by timestamp;
     `
   );
-  fs.writeFileSync("out/main.json", JSON.stringify(messages, null, 4));
+  fs.writeFileSync(outfile, JSON.stringify(messages, null, 4));
 })();
