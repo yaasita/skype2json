@@ -29,6 +29,6 @@ This script exports slack logs as json.
         "name": "from user name",
         "time": 1480751414,
         "text": "hello",
-        "chat": 999,
+        "chat": "999",
         "date": "2016/12/13 16:50:14"
     }
