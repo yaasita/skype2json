@@ -1,7 +1,7 @@
 "use strict";
 
 const fs = require("fs");
-const path = require('path');
+const path = require("path");
 const common = require("./lib/2016-2017-common.js");
 
 (async () => {

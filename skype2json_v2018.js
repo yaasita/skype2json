@@ -1,7 +1,7 @@
 "use strict";
 
 const fs = require("fs");
-const path = require('path');
+const path = require("path");
 const common = require("./lib/2018-common.js");
 
 (async () => {
@@ -10,7 +10,7 @@ const common = require("./lib/2018-common.js");
   const messages = await common.get_messages(
     infile,
     `
-    select nsp_pk, nsp_data  from messagesv12;
+    select nsp_pk,nsp_data from messagesv12;
     `
   );
   fs.writeFileSync(outfile, JSON.stringify(messages, null, 4));
