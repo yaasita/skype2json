@@ -1,0 +1,27 @@
+{
+  "name": "skype2json",
+  "version": "2.0.0",
+  "description": "This script exports slack logs as json.",
+  "main": "skype2json_v2018.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "prettier": "^1.15.2",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaasita/skype2json.git"
+  },
+  "author": "yaasita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaasita/skype2json/issues"
+  },
+  "homepage": "https://github.com/yaasita/skype2json#readme"
+}
