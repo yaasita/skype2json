@@ -1,17 +1,21 @@
 {
   "name": "skype2json",
   "version": "2.0.0",
-  "description": "This script exports slack logs as json.",
+  "description": "This script exports skype logs to json.",
   "main": "skype2json_v2018.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint ." 
+  },
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
-    "sqlite3": "^4.0.9"
+    "sqlite3": "^4.1.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "eslint": "^6.6.0"
   },
   "repository": {
     "type": "git",
