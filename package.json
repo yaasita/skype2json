@@ -5,7 +5,7 @@
   "main": "skype2json_v2018.js",
   "scripts": {
     "test": "ava",
-    "lint": "eslint ." 
+    "lint": "eslint ."
   },
   "directories": {
     "lib": "lib"
