@@ -1,6 +1,6 @@
 # skype2json
 
-This script exports slack logs as json.
+This script exports slack logs to json.
 
 # Install
 
