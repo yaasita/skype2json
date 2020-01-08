@@ -6,7 +6,7 @@ const fs = require("fs");
 (async () => {
   const infile = process.argv[2];
   const json = require("./out/s4l-yaasita.json");
-  const target = 2019;
+  const target = parseInt(process.argv[3], 10);
   let newjson = [];
   if (infile === undefined) {
     usage();
